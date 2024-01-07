@@ -1,0 +1,29 @@
+body {
+    padding: 6% 0% 0% 2%;
+    background-image: url("img/7.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.galery{
+    width: 78%;
+    height: 63vh;
+    display: flex;
+    gap: 9px;
+}
+
+.galery img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: ease all 1.5s;
+    cursor: pointer;
+}
+
+.galery img:hover{
+    width: 100%;
+    box-shadow: 0 0 100px rgb(239, 114, 114); 
+}
